@@ -64,18 +64,20 @@ You're welcome to fork, modify, or contribute.
 Made by [@mehedihsiam](https://github.com/mehedihsiam)  
 Feel free to open issues or suggest features via GitHub.
 
-### Wanna Settle a meeting with me?
-
-#### [Book Now](https://calendar.app.google/UjFpnNbvuTD9WWMe6)
-
 ---
 
-### Information and Queries about me:-
+### ℹ️ About Me & FAQs
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-fff?style=for-the-badge&logo=aboutdotme&logoColor=black)](http://mehedisiam.xyz/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mehedihsiam)
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/MehediHasanSiamBD)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mehedihsiam)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mehedisiam0022@gmail.com)
+
+---
+
+### 📅 Book a Meeting with Me
+
+#### [Book Now](https://calendar.app.google/UjFpnNbvuTD9WWMe6)
 
 ---
