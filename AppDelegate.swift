@@ -13,7 +13,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     static var shared: AppDelegate?
 
     func applicationDidFinishLaunching(_ notification: Notification) {
-        print("✅ AppDelegate loaded successfully")
+        NSApp.setActivationPolicy(.accessory)
         AppDelegate.shared = self
         setupMenuBar()
         startClipboardMonitoring()
@@ -25,7 +25,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
             if let button = statusItem.button {
                 if let image = NSImage(named: "MenuBarIcon") {
-                    print("✅ MenuBarIcon loaded successfully")
                     button.image = image
                     button.image?.isTemplate = true // makes it adapt to dark/light mode
                 } else {
