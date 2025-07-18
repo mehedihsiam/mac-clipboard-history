@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B299AECB2E291F6B0035F05C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B299AECA2E291F670035F05C /* AppDelegate.swift */; };
+		B299AECF2E2921550035F05C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B299AECE2E29214D0035F05C /* Info.plist */; };
+		B299AED12E29273A0035F05C /* PopupClipboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B299AED02E29273A0035F05C /* PopupClipboardView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B299AEAE2E291F1C0035F05C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +33,9 @@
 		B299AE9F2E291F1B0035F05C /* ClipboardHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipboardHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B299AEAD2E291F1C0035F05C /* ClipboardHistoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipboardHistoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B299AEB72E291F1C0035F05C /* ClipboardHistoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipboardHistoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B299AECA2E291F670035F05C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B299AECE2E29214D0035F05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B299AED02E29273A0035F05C /* PopupClipboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupClipboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +84,9 @@
 		B299AE962E291F1B0035F05C = {
 			isa = PBXGroup;
 			children = (
+				B299AED02E29273A0035F05C /* PopupClipboardView.swift */,
+				B299AECE2E29214D0035F05C /* Info.plist */,
+				B299AECA2E291F670035F05C /* AppDelegate.swift */,
 				B299AEA12E291F1B0035F05C /* ClipboardHistory */,
 				B299AEB02E291F1C0035F05C /* ClipboardHistoryTests */,
 				B299AEBA2E291F1C0035F05C /* ClipboardHistoryUITests */,
@@ -195,6 +207,9 @@
 			);
 			mainGroup = B299AE962E291F1B0035F05C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B299AED22E2937310035F05C /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B299AEA02E291F1B0035F05C /* Products */;
 			projectDirPath = "";
@@ -212,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B299AECF2E2921550035F05C /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +252,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B299AECB2E291F6B0035F05C /* AppDelegate.swift in Sources */,
+				B299AED12E29273A0035F05C /* PopupClipboardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -380,6 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -551,6 +571,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B299AED22E2937310035F05C /* XCRemoteSwiftPackageReference "LaunchAtLogin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = B299AE972E291F1B0035F05C /* Project object */;
 }

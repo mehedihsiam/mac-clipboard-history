@@ -1,17 +1,10 @@
-//
-//  ClipboardHistoryApp.swift
-//  ClipboardHistory
-//
-//  Created by Mehedi Hasan Siam on 17/7/25.
-//
-
 import SwiftUI
 
 @main
 struct ClipboardHistoryApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+        Settings {} // empty window to avoid default scene
     }
 }
